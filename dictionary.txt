@@ -1,0 +1,735 @@
+################################
+#    mm06/NOAA/FSAA
+################################
+Samurai (fps)|amurai fps
+Proxycon (fps)|roxycon fps
+Samurai fps|amurai fps
+Proxycon fps|roxycon fps
+Fill Rate Single Texture(Mtexels/s)|\nFillrate with 1 texture units - Completed_L_Texels per second_L_m
+Fill Rate Dual Texture(Mtexels/s)|\nFillrate with 2 texture units - Completed_L_Texels per second_L_m
+Triangle Count Simple(Mtriangles/s)|\nTriangle count without lighting - Completed_L_Triangles per second_L_m
+Triangle Count Lit(Mtriangles/s)|\nTriangle count with lighting - Completed_L_Triangles per second_L_m
+Batch Count Without Load Matrix(Kbatches/s)|\nBatch count without load matrix - Completed_L_Batches per second_L_k
+Batch Count With Load Matrix(Kbatches/s)|\nBatch count with load matrix - Completed_L_Batches per second_L_k
+CPU Test(Kskinnedvertices/s)|\nCPU test - Completed_L_Skinned vertices / s_L_k
+
+################################
+#    mm07/NOAA/FSAA
+################################
+Taiji FSAA fps|aiji fps
+Hoverjet FSAA fps|overjet fps
+Taiji FSAA (fps)|Taiji fps
+Hoverjet(fps)|Hoverjet fps
+Advanced World(fps)|\nadvanced world - Completed
+Batch count(Batches/s)|\nbatch - Completed_L_Batches per second
+Texture filter and Anti-Alias(fps)|\ntexture filtering - Completed
+Unified shader(fps)|\nunified shader - Completed
+
+################################
+#    Mirada NOAA done
+################################
+Fillrate Mirada(fps)|pixel_shader_test\.fms
+Polygon(vertex_test) (fps)|vertex_test\.fms
+ui_test fps(fps)|ui_test\.fms
+dashboard fps(fps)|dashboard\.fms
+Navigation fps(fps)|Nav_test\.fms
+
+################################
+#    basemark_v22 done
+################################
+Navigation[High Q](fps)|Navigation test
+Navigation[Normal Q](fps)|Navigation test
+User Interface Test. Average fps[High Q](fps)|User Interface Test
+User Interface Test. Average fps[Normal Q](fps)|User Interface Test
+
+################################
+#    vgmark_gc2000 done
+################################
+User interface(fps)|\[User interface - Completed\]_L_Frames per second
+Navigation (fps)|\[Navigation - Completed\]_L_Frames per second
+Fillrate (Solid Color) (fps)|\[Fillrate \(Solid Color\) - Completed\]_L_Frames per second
+Fillrate (Solid Color) (Mpixels)|\[Fillrate \(Solid Color\) - Completed\]_L_Kilo pixels per second_L_m
+Fillrate (Gradient) (fps)|\[Fillrate \(Gradient\) - Completed\]_L_Frames per second
+Fillrate (Gradient) (Mpixels)|\[Fillrate \(Gradient\) - Completed\]_L_Kilo pixels per second_L_m
+Fillrate (Pattern)(fps)|\[Fillrate \(Pattern\) - Completed\]_L_Frames per second
+Fillrate (Pattern)(Mpixels)|\[Fillrate \(Pattern\) - Completed\]_L_Kilo pixels per second_L_m
+Segment count (Straight) (fps)|\[Segment count \(Straight\) - Completed\]_L_Frames per second
+Segment count (Straight) (Kseg/s)|\[Segment count \(Straight\) - Completed\]_L_Segments per second_L_k
+Segment count (Cubic) (fps)|\[Segment count \(Cubic\) - Completed\]_L_Frames per second
+Segment count (Cubic) (Kseg/s)|\[Segment count \(Cubic\) - Completed\]_L_Segments per second_L_k
+Segment count (Fill morphed) (fps)|\[Segment count \(Fill morphed\) - Completed\]_L_Frames per second
+Segment count (Fill morphed) (Kseg/s)|\[Segment count \(Fill morphed\) - Completed\]_L_Segments per second_L_k
+Segment count (Outline morphed) (fps)|\[Segment count \(Outline morphed\) - Completed\]_L_Frames per second
+Segment count (Outline morphed) (Kseg/s)|\[Segment count \(Outline morphed\) - Completed\]_L_Segments per second_L_k
+Segment count (Outline fill morphed) (fps)|\[Segment count \(Outline fill morphed\) - Completed\]_L_Frames per second
+Segment count (Outline fill morphed) (Kseg/s)|\[Segment count \(Outline fill morphed\) - Completed\]_L_Segments per second_L_k
+Path count (without load matrix) (fps)|\[Path count \(without load matrix\) - Completed\]_L_Frames per second
+Path count (without load matrix) (Kpath/s)|\[Path count \(without load matrix\) - Completed\]_L_Paths per second_L_k
+Path count (with load matrix) (fps)|\[Path count \(with load matrix\) - Completed\]_L_Frames per second
+Path count (with load matrix) (Kpath/s)|\[Path count \(with load matrix\) - Completed\]_L_Paths per second_L_k
+Image quality (flower) (Score)|\[Image quality \(flower\) - Completed\]_L_Score
+Image quality (leafs)(Score)|\[Image quality \(leafs\) - Completed\]_L_Score
+
+################################
+#    vgmark11_gc2000 done
+################################
+RGB565 (fps)|RGB565
+RGB888 (fps)|RGB888
+
+################################
+#    gpubench done
+################################
+Texture Upload(512x512, GL_RGB, GL_UNSIGNED_BYTE) (MB/s)|\nTexture Upload \(512x512, GL_RGB, GL_UNSIGNED_BYTE\)
+Texture Upload (512x512, GL_RGBA, GL_UNSIGNED_BYTE)(MB/s)|\nTexture Upload \(512x512, GL_RGBA, GL_UNSIGNED_BYTE\)
+Texture Upload (512x512, GL_RGBA, GL_UNSIGNED_SHORT_5_5_5_1)(MB/s)|\nTexture Upload \(512x512, GL_RGBA, GL_UNSIGNED_SHORT_5_5_5_1\)
+Texture Upload (512x512, GL_LUMINANCE, GL_UNSIGNED_BYTE) (MB/s)|\nTexture Upload \(512x512, GL_LUMINANCE, GL_UNSIGNED_BYTE\)
+Sub Texture Upload (128x128, GL_RGB, GL_UNSIGNED_BYTE)(MB/s)|\nSub Texture Upload \(128x128, GL_RGB, GL_UNSIGNED_BYTE\)
+Sub Texture Upload (128x128, GL_RGBA, GL_UNSIGNED_BYTE)(MB/s)|\nSub Texture Upload \(128x128, GL_RGBA, GL_UNSIGNED_BYTE\)
+Sub Texture Upload (128x128, GL_RGBA, GL_UNSIGNED_SHORT_5_5_5_1)(MB/s)|\nSub Texture Upload \(128x128, GL_RGBA, GL_UNSIGNED_SHORT_5_5_5_1\)
+Sub Texture Upload (128x128, GL_LUMINANCE, GL_UNSIGNED_BYTE)(MB/s)|\nSub Texture Upload \(128x128, GL_LUMINANCE, GL_UNSIGNED_BYTE\)
+Buffer Clears(FPS)|\nBuffer Clears
+Grid Triangles (Triangles=2, Grid=1, Texture=512, DepthTest=0, SmoothShade=0, Filter=GL_NEAREST)(FPS)|\nGrid Triangles \(Triangles=2, Grid=1
+Grid Triangles (Triangles=32, Grid=4, Texture=512, DepthTest=1, SmoothShade=1, Filter=GL_LINEAR)(FPS)|\nGrid Triangles \(Triangles=32, Grid=4
+Grid Triangles (Triangles=512, Grid=16, Texture=512, DepthTest=1, SmoothShade=1, Filter=GL_LINEAR) (FPS)|\nGrid Triangles \(Triangles=512, Grid=16
+Grid Triangles (Triangles=8192, Grid=64, Texture=512, DepthTest=1, SmoothShade=1, Filter=GL_LINEAR)(FPS)|\nGrid Triangles \(Triangles=8192, Grid=64
+Grid Triangles (Triangles=32768, Grid=128, Texture=512, DepthTest=1, SmoothShade=1, Filter=GL_LINEAR)(FPS)|\nGrid Triangles \(Triangles=32768, Grid=128
+Grid Triangles (Triangles=131072, Grid=256, Texture=512, DepthTest=1, SmoothShade=1, Filter=GL_LINEAR)(FPS)|\nGrid Triangles \(Triangles=131072, Grid=256
+Grid Triangles (Triangles=524288, Grid=512, Texture=512, DepthTest=1, SmoothShade=1, Filter=GL_LINEAR)(FPS)|\nGrid Triangles \(Triangles=524288, Grid=512
+Smooth Triangles (Triangles=400)(FPS)|\nSmooth Triangles \(Triangles=400\)
+Textured Triangles (Triangles=400, Texture=512)(FPS)|\nTextured Triangles \(Triangles=400, Texture=512\)
+Textured Triangles (Triangles=400, Texture=499)(FPS)|\nTextured Triangles \(Triangles=400, Texture=499\)
+Gears(FPS)|\nGears
+Terrain(FPS)|\nTerrain
+Terrain Textured (FPS)|\nTerrain Textured
+FBO Singlethreaded Terrain(FPS)|\nFBO Singlethreaded Terrain
+
+################################
+#    the original
+################################
+Taiji noFSAA fps|Taiji fps
+Hoverjet noFSAA fps|Hoverjet fps
+Samurai fps|amurai fps
+Proxycon fps|roxycon fps
+Taiji noFSAA fps|Taiji fps
+Hoverjet noFSAA fps|Hoverjet fps
+advanced world test|advanced world - Completed
+batch count|batch - Complete
+texture filtering|texture filtering - Completed
+unified shader|unified shader - Completed
+Fillrate Mirada|pixel_shader_test\.fms
+Polygon(vertex_test) fps|vertex_test\.fms
+ui_test fps|ui_test\.fms
+dashboard fps|dashboard\.fms
+Nav_test fps|Nav_test\.fms
+User Interface Test. Average fps[High Q]|User Interface Test
+User Interface Test. Average fps[Normal Q]|User Interface Test
+Navigation[High Q]|Navigation test
+Navigation[Normal Q]|Navigation test
+User interface|User interface - Completed
+#Navigation fps|Navigation - Completed
+Fillrate (Solid Color) fps|Fillrate \(Solid Color\) - Completed
+Fillrate (Gradient) fps|Fillrate \(Gradient\) - Completed
+Fillrate (Pattern)fps|Fillrate \(Pattern\) - Completed
+Segment count (Straight) fps|Segment count \(Straight\) - Completed
+Segment count (Cubic) fps|Segment count \(Cubic\) - Completed
+Segment count (Fill morphed) fps|Segment count \(Fill morphed\) - Completed
+Segment count (Outline morphed) fps|Segment count \(Outline morphed\) - Completed
+Segment count (Outline fill morphed) fps|Segment count \(Outline fill morphed\) - Completed
+Path count (without load matrix) fps|Path count \(without load matrix\) - Completed
+Path count (with load matrix) fps|Path count \(with load matrix\) - Completed
+Image quality (flower)|Image quality \(flower\) - Completed
+Image quality (leafs)|Image quality \(leafs\) - Completed
+GtkEntry - time|\nGtkEntry - time
+GtkComboBox - time|\nGtkComboBox - time
+GtkComboBoxEntry - time|\nGtkComboBoxEntry - time
+GtkSpinButton - time|\nGtkSpinButton - time
+GtkProgressBar - time|\nGtkProgressBar - time
+GtkToggleButton - time|\nGtkToggleButton - time
+GtkCheckButton - time|\nGtkCheckButton - time
+
+################################
+#    gtkperf done
+################################
+GtkEntry - time|\nGtkEntry - time
+GtkComboBox - time|\nGtkComboBox - time
+GtkComboBoxEntry - time|\nGtkComboBoxEntry - time
+GtkSpinButton - time|\nGtkSpinButton - time
+GtkProgressBar - time|\nGtkProgressBar - time
+GtkToggleButton - time|\nGtkToggleButton - time
+GtkCheckButton - time|\nGtkCheckButton - time
+GtkRadioButton - time|\nGtkRadioButton - time
+GtkTextView - Add text - time|\nGtkTextView - Add text - time
+GtkTextView - Scroll - time|\nGtkTextView - Scroll - time
+GtkDrawingArea - Lines - time|\nGtkDrawingArea - Lines - time
+GtkDrawingArea - Circles - time|\nGtkDrawingArea - Circles - time
+GtkDrawingArea - Text - time|\nGtkDrawingArea - Text - time
+GtkDrawingArea - Pixbufs - time|\nGtkDrawingArea - Pixbufs - time
+Total time|\nTotal time
+# miss the unit
+Fill Rate Single Texture|\nFillrate with 1 texture units - Completed_L_Texels per second_L_m
+Fill Rate Dual Texture|\nFillrate with 2 texture units - Completed_L_m
+Triangle Count Simple|\nTriangle count without lighting - Completed_L_Triangles per second_L_m
+Triangle Count Lit|\nTriangle count with lighting - Completed_L_Triangles per second_L_m
+Batch Count With Load Matrix|\nBatch count without load matrix - Completed_L_Batches per second_L_k
+CPU Test|\nCPU test - Completed_L_Skinned vertices / s_L_k
+
+################################
+#        df_dok style 2 done
+################################
+Anti-aliased Text (KChars/sec)|\nAnti-aliased Text
+Anti-aliased Text (blend) (MPixel/sec)|\nAnti-aliased Text \(blend\)
+Fill Rectangle (MPixel/sec)|\nFill Rectangle
+Fill Rectangle (blend)(MPixel/sec)|\nFill Rectangle \(blend\)
+Fill Rectangles [10](MPixel/sec)|\nFill Rectangles \[10\]
+Fill Rectangles [10] (blend) (MPixel/sec)|\nFill Rectangles \[10\] \(blend\)
+Fill Triangles  (MPixel/sec)|\nFill Triangles
+Fill Triangles (blend)  (KRects/sec)|\nFill Triangles \(blend\)
+Draw Rectangle (KRects/sec)|\nDraw Rectangle
+Draw Rectangle (blend) (KLines/sec)|\nDraw Rectangle \(blend\)
+Draw Lines [10]  (KLines/sec)|\nDraw Lines \[10\]
+Draw Lines [10] (blend)  (MPixel/sec)|\nDraw Lines \[10\] \(blend\)
+Fill Spans (MPixel/sec)|\nFill Spans
+Fill Spans (blend)  (MPixel/sec)|\nFill Spans \(blend\)
+Fill Trapezoids [10] (MPixel/sec)|\nFill Trapezoids \[10\]
+Blit (MPixel/sec)|\nBlit
+Blit 180 (MPixel/sec)|\nBlit 180
+Blit colorkeyed(MPixel/sec)|\nBlit colorkeyed
+Blit destination colorkeyed (MPixel/sec)|\nBlit destination colorkeyed
+Blit destination colorkeyed  (MPixel/sec)|\nBlit destination colorkeyed
+Blit with format conversion(MPixel/sec)|\nBlit with format conversion
+Blit with colorizing(MPixel/sec)|\nBlit with colorizing
+Blit from 32bit (blend) (MPixel/sec)|\nBlit from 32bit \(blend\)
+Blit from 32bit (blend) with colorizing(MPixel/sec)|\nBlit from 32bit \(blend\) with colorizing
+Blit SrcOver (premultiplied source)   (MPixel/sec)|\nBlit SrcOver \(premultiplied source\)
+Blit SrcOver (premultiply source)(MPixel/sec)|\nBlit SrcOver \(premultiply source\)
+Stretch Blit  (MPixel/sec)|\nStretch Blit
+Stretch Blit colorkeyed(MPixel/sec)|\nStretch Blit colorkeyed
+
+################################
+#        df_dok style 1 done
+################################
+Anti-aliased Text|\nAnti-aliased Text
+Anti-aliased Text (blend)|\nAnti-aliased Text \(blend\)
+Fill Rectangle|\nFill Rectangle
+Fill Rectangle (blend)|\nFill Rectangle \(blend\)
+Fill Rectangles [10]|\nFill Rectangles \[10\]
+Fill Rectangles [10] (blend)|\nFill Rectangles \[10\] \(blend\)
+Fill Triangles|\nFill Triangles
+Fill Triangles (blend)|\nFill Triangles \(blend\)
+Draw Rectangle|\nDraw Rectangle
+Draw Rectangle (blend)|\nDraw Rectangle \(blend\)
+Draw Lines [10]|\nDraw Lines \[10\]
+Draw Lines [10] (blend)|\nDraw Lines \[10\] \(blend\)
+Fill Spans|\nFill Spans
+Fill Spans (blend)|\nFill Spans \(blend\)
+Fill Trapezoids [10]|\nFill Trapezoids \[10\]
+Blit|\nBlit
+Blit 180|\nBlit 180
+Blit colorkeyed|\nBlit colorkeyed
+Blit destination colorkeyed|\nBlit destination colorkeyed
+Blit with format conversion|\nBlit with format conversion
+Blit with colorizing|\nBlit with colorizing
+Blit from 32bit (blend)|\nBlit from 32bit \(blend\)
+Blit from 32bit (blend) with colorizing|\nBlit from 32bit \(blend\) with colorizing
+Blit SrcOver (premultiplied source)|\nBlit SrcOver \(premultiplied source\)
+Blit SrcOver (premultiply source)|\nBlit SrcOver \(premultiply source\)
+Stretch Blit|\nStretch Blit
+Stretch Blit colorkeyed|\nStretch Blit colorkeyed
+
+################################
+#     EGL/GLES | GL
+################################
+GLMark2-es2 fullscreen(score)|\nglmark2 test_L_OpenGL ES_L_Score
+GLMark2-es2-wayland fullscreen(score)|\nglmark2-es2-wayland test_L_OpenGL ES_L_Score
+simple_draw(fps)|\nMISSING_L_no
+tutorial6_es20(fps)|\ntutorial6_es20 test_L_ticks ->
+es2gears(fps)|\nes2gears test_L_frames in_L_seconds =
+glxgears fullscreen(fps)|\nglxgears fullscreen test_L_frames in_L_seconds =
+GLMark2 fullscreen(score)|\nglmark2 test_L_Score
+
+
+################################
+#    OpenCL
+################################
+colorseg_demo(ms)|\ncolorseg_demo_L_Process time \(gpu\) =
+gaussianfilter_test gray(ms)|\ngaussianfilter_test gray_L_Process time \(gpu\) =
+gaussianfilter_test rgb(ms)|\ngaussianfilter_test rgb_L_Process time \(gpu\) =
+gray2rgb_test(ms)|\ngray2rgb_test_L_Process time \(gpu\) =
+medianfilter_test(ms)|\nmedianfilter_test_L_Process time \(gpu\) =
+morphodilate_test(ms)|\nmorphodilate_test_L_Process time \(gpu\) =
+morphoerode_test(ms)|\nmorphoerode_test_L_Process time \(gpu\) = 
+rgb2gray_test(ms)|\nrgb2gray_test_L_Process time \(gpu\) = 
+rgb2hsv_test(ms)|\nrgb2hsv_test_L_Process time \(gpu\) = 
+rgb888torgb565_test(ms)|\nrgb888torgb565_test_L_Process time \(gpu\) = 
+sobelvhfilter_test(ms)|\nsobelvhfilter_test_L_Process time \(gpu\) = 
+vivante_fft|\nvivante_fft_L_Process time \(gpu\) = 
+
+################################
+#   KPA
+################################
+Digital Cockpit|Digital Cockpit
+Car Shading|Car Shading
+Fast Cluster|Fast Cluster
+Total Score|Overall score
+
+################################
+#   OpenCL benchmark: clpeak GEMM hevc_cl ocl
+################################
+Global memory bandwidth float(GBPS)|Global memory bandwidth_L_float   :_L_Single-precision compute
+Global memory bandwidth float2(GBPS)|Global memory bandwidth_L_float2_L_Single-precision compute
+Global memory bandwidth float4(GBPS)|Global memory bandwidth_L_float4_L_Single-precision compute
+Global memory bandwidth float8(GBPS)|Global memory bandwidth_L_float8_L_Single-precision compute
+Global memory bandwidth float16(GBPS)|Global memory bandwidth_L_float16_L_Single-precision compute
+Single-precision compute float(GFLOPS)|Single-precision compute_L_float   :_L_Double-precision compute
+Single-precision compute float2(GFLOPS)|Single-precision compute_L_float2_L_Double-precision compute
+Single-precision compute float4(GFLOPS)|Single-precision compute_L_float4_L_Double-precision compute
+Single-precision compute float8(GFLOPS)|Single-precision compute_L_float8_L_Double-precision compute
+Single-precision compute float16(GFLOPS)|Single-precision compute_L_float16_L_Double-precision compute
+Double-precision compute double(GFLOPS)|Double-precision compute_L_double   :_L_Integer compute
+Double-precision compute double2(GFLOPS)|Double-precision compute_L_double2_L_Integer compute
+Double-precision compute double4(GFLOPS)|Double-precision compute_L_double4_L_Integer compute
+Double-precision compute double8(GFLOPS)|Double-precision compute_L_double8_L_Integer compute
+Double-precision compute double16(GFLOPS)|Double-precision compute_L_double16_L_Integer compute
+Integer compute int(GIOPS)|Integer compute_L_int   :_L_Transfer bandwidth
+Integer compute int2(GIOPS)|Integer compute_L_int2_L_Transfer bandwidth
+Integer compute int4(GIOPS)|Integer compute_L_int4_L_Transfer bandwidth
+Integer compute int8(GIOPS)|Integer compute_L_int8_L_Transfer bandwidth
+Integer compute int16(GIOPS)|Integer compute_L_int16_L_Transfer bandwidth
+Transfer bandwidth enqueueWriteBuffer(GBPS)|enqueueWriteBuffer
+Transfer bandwidth enqueueReadBuffer(GBPS)|enqueueReadBuffer
+Transfer bandwidth enqueueMapBuffer(GBPS)|enqueueMapBuffer\(for read\)
+Transfer bandwidth memcpy from mapped ptr(GBPS)|memcpy from mapped ptr
+Transfer bandwidthenqueueUnmap(after write)(GBPS)|enqueueUnmap\(after write\)
+Transfer bandwidth memcpy to mapped ptr(GBPS)|memcpy to mapped ptr
+Kernel launch latency(us)|Kernel launch latency
+Initialize OpenCL Time(ms)|GEMM test_L_\nTime\:
+Throughput(GFLOPS)|GEMM test_L_\nThroughput\:
+float calu Time(ms)|GEMM test_L_\nfloat calu Time\:
+CPU time taken(us)|\nCPU time taken =
+GPU time needed(OpenCL event profiling)(us)|\nGPU time needed\(OpenCL event profiling\)\:
+total running time(s)|ocl_test test_L_\ntotal running time is
+
+################################
+#   WebGL performance test
+################################
+aquarium |aquarium fps
+cubes |cubes fps
+multiple-views |multiple-views fps
+Blob |Blob fps
+Dynamic Cubemap |Dynamic Cubemap fps
+Field |Field fps
+Fishtank |Fishtank fps
+Imagesphere |Imagesphere fps
+Spacerocks |Spacerocks fps
+Flexible Toon Shading |Flexible Toon Shading fps
+tdl example |tdl example fps
+Jellyfish |Jellyfish fps
+color-adjust |color-adjust fps
+
+########################################
+#   g2d performance test
+########################################
+g2d blit time(Mpixel/s)|g2d blit time
+g2d blending time(Mpixel/s)|g2d blending time
+g2d blend-dim time(Mpixel/s)|g2d blend-dim time
+g2d clear time(Mpixel/s)|g2d clear time
+90 rotation time(Mpixel/s)|90 rotation time
+180 rotation time(Mpixel/s)|180 rotation time
+270 rotation time(Mpixel/s)|270 rotation time
+g2d flip-h time(Mpixel/s)|g2d flip-h time
+g2d flip-v time(Mpixel/s)|g2d flip-v time
+g2d copy non-cacheable time(Mpixel/s)|g2d copy non-cacheable time
+cpu copy non-cacheable time(Mpixel/s)|cpu copy non-cacheable time
+cpu copy user cacheable time(Mpixel/s)|cpu copy user cacheable time
+cpu copy gpu cacheable time(Mpixel/s)|cpu copy gpu cacheable time
+g2d copy with cache op time(Mpixel/s)|g2d copy with cache op time
+g2d clear with vg time(Mpixel/s)|g2d clear with vg time
+g2d blit with vg time(Mpixel/s)|g2d blit with vg time
+g2d copy with vg time(Mpixel/s)|g2d copy with vg time
+g2d resize with vg time(Mpixel/s)|g2d resize with vg time
+g2d resize with 2d time(Mpixel/s)|g2d resize with 2d time
+
+#######################################
+#   acceleration test
+#######################################
+x11perf-dot|Dot
+x11perf-rect1|1x1 rectangle
+x11perf-rect10|10x10 rectangle
+x11perf-rect100|100x100 rectangle
+x11perf-rect500|500x500 rectangle
+x11perf-srect1|1x1 stippled rectangle \(8x8 stipple\)
+x11perf-srect10|10x10 stippled rectangle \(8x8 stipple\)
+x11perf-srect100|100x100 stippled rectangle \(8x8 stipple\)
+x11perf-srect500|500x500 stippled rectangle \(8x8 stipple\)
+x11perf-osrect1|1x1 opaque stippled rectangle \(8x8 stipple\)
+x11perf-osrect10|10x10 opaque stippled rectangle \(8x8 stipple\)
+x11perf-osrect100|100x100 opaque stippled rectangle \(8x8 stipple\)
+x11perf-osrect500|500x500 opaque stippled rectangle \(8x8 stipple\)
+x11perf-tilerect1|1x1 tiled rectangle \(4x4 tile\)
+x11perf-tilerect10|10x10 tiled rectangle \(4x4 tile\)
+x11perf-tilerect100|100x100 tiled rectangle \(4x4 tile\)
+x11perf-tilerect500|500x500 tiled rectangle \(4x4 tile\)
+x11perf-oddsrect1|1x1 stippled rectangle \(17x15 stipple\)
+x11perf-oddsrect10|10x10 stippled rectangle \(17x15 stipple\)
+x11perf-oddsrect100|100x100 stippled rectangle \(17x15 stipple\)
+x11perf-oddsrect500|500x500 stippled rectangle \(17x15 stipple\)
+x11perf-oddosrect1|1x1 opaque stippled rectangle \(17x15 stipple\)
+x11perf-oddosrect10|10x10 opaque stippled rectangle \(17x15 stipple\)
+x11perf-oddosrect100|100x100 opaque stippled rectangle \(17x15 stipple\)
+x11perf-oddosrect500|500x500 opaque stippled rectangle \(17x15 stipple\)
+x11perf-oddtilerect1|1x1 tiled rectangle \(17x15 tile\)
+x11perf-oddtilerect10|10x10 tiled rectangle \(17x15 tile\)
+x11perf-oddtilerect100|100x100 tiled rectangle \(17x15 tile\)
+x11perf-oddtilerect500|500x500 tiled rectangle \(17x15 tile\)
+x11perf-bigsrect1|1x1 stippled rectangle \(161x145 stipple\)
+x11perf-bigsrect10|10x10 stippled rectangle \(161x145 stipple\)
+x11perf-bigsrect100|100x100 stippled rectangle \(161x145 stipple\)
+x11perf-bigsrect500|500x500 stippled rectangle \(161x145 stipple\)
+x11perf-bigosrect1|1x1 opaque stippled rectangle \(161x145 stipple\)
+x11perf-bigosrect10|10x10 opaque stippled rectangle \(161x145 stipple\)
+x11perf-bigosrect100|100x100 opaque stippled rectangle \(161x145 stipple\)
+x11perf-bigosrect500|500x500 opaque stippled rectangle \(161x145 stipple\)
+x11perf-bigtilerect1|1x1 tiled rectangle \(161x145 tile\)
+x11perf-bigtilerect10|10x10 tiled rectangle \(161x145 tile\)
+x11perf-bigtilerect100|100x100 tiled rectangle \(161x145 tile\)
+x11perf-bigtilerect500|500x500 tiled rectangle \(161x145 tile\)
+x11perf-eschertilerect1|1x1 tiled rectangle \(216x208 tile\)
+x11perf-eschertilerect10|10x10 tiled rectangle \(216x208 tile\)
+x11perf-eschertilerect100|100x100 tiled rectangle \(216x208 tile\)
+x11perf-eschertilerect500|500x500 tiled rectangle \(216x208 tile\)
+x11perf-seg1|1-pixel line segment
+x11perf-seg10|10-pixel line segment
+x11perf-seg100|100-pixel line segment
+x11perf-seg500|500-pixel line segment
+x11perf-seg100c1|100-pixel line segment \(1 kid\)
+x11perf-dseg10|10-pixel dashed segment
+x11perf-dseg100|100-pixel dashed segment
+x11perf-ddseg100|100-pixel double-dashed segment
+x11perf-hseg10|10-pixel horizontal line segment
+x11perf-hseg100|100-pixel horizontal line segment
+x11perf-hseg500|500-pixel horizontal line segment
+x11perf-vseg10|10-pixel vertical line segment
+x11perf-vseg100|100-pixel vertical line segment
+x11perf-vseg500|500-pixel vertical line segment
+x11perf-whseg10|10x1 wide horizontal line segment
+x11perf-whseg100|100x10 wide horizontal line segment
+x11perf-whseg500|500x50 wide horizontal line segment
+x11perf-wvseg10|10x1 wide vertical line segment
+x11perf-wvseg100|100x10 wide vertical line segment
+x11perf-wvseg500|500x50 wide vertical line segment
+x11perf-line1|1-pixel line
+x11perf-line10|10-pixel line
+x11perf-line100|100-pixel line
+x11perf-line500|500-pixel line
+x11perf-dline10|10-pixel dashed line
+x11perf-dline100|100-pixel dashed line
+x11perf-ddline100|100-pixel double-dashed line
+x11perf-wline10|10x1 wide line
+x11perf-wline100|100x10 wide line
+x11perf-wline500|500x50 wide line
+x11perf-wdline100|100x10 wide dashed line
+x11perf-wddline100|100x10 wide double-dashed line
+x11perf-orect10|10x10 rectangle outline
+x11perf-orect100|100x100 rectangle outline
+x11perf-orect500|500x500 rectangle outline
+x11perf-worect10|10x10 wide rectangle outline
+x11perf-worect100|100x100 wide rectangle outline
+x11perf-worect500|500x500 wide rectangle outline
+x11perf-circle1|1-pixel circle
+x11perf-circle10|10-pixel circle
+x11perf-circle100|100-pixel circle
+x11perf-circle500|500-pixel circle
+x11perf-dcircle100|100-pixel dashed circle
+x11perf-ddcircle100|100-pixel double-dashed circle
+x11perf-wcircle10|10-pixel wide circle
+x11perf-wcircle100|100-pixel wide circle
+x11perf-wcircle500|500-pixel wide circle
+x11perf-wdcircle100|100-pixel wide dashed circle
+x11perf-wddcircle100|100-pixel wide double-dashed circle
+x11perf-pcircle10|10-pixel partial circle
+x11perf-pcircle100|100-pixel partial circle
+x11perf-wpcircle10|10-pixel wide partial circle
+x11perf-wpcircle100|100-pixel wide partial circle
+x11perf-fcircle1|1-pixel solid circle
+x11perf-fcircle10|10-pixel solid circle
+x11perf-fcircle100|100-pixel solid circle
+x11perf-fcircle500|500-pixel solid circle
+x11perf-fcpcircle10|10-pixel fill chord partial circle
+x11perf-fcpcircle100|100-pixel fill chord partial circle
+x11perf-fspcircle10|10-pixel fill slice partial circle
+x11perf-fspcircle100|100-pixel fill slice partial circle
+x11perf-ellipse10|10-pixel ellipse
+x11perf-ellipse100|100-pixel ellipse
+x11perf-ellipse500|500-pixel ellipse
+x11perf-dellipse100|100-pixel dashed ellipse
+x11perf-ddellipse100|100-pixel double-dashed ellipse
+x11perf-wellipse10|10-pixel wide ellipse
+x11perf-wellipse100|100-pixel wide ellipse
+x11perf-wellipse500|500-pixel wide ellipse
+x11perf-wdellipse100|100-pixel wide dashed ellipse
+x11perf-wddellipse100|100-pixel wide double-dashed ellipse
+x11perf-pellipse10|10-pixel partial ellipse
+x11perf-pellipse100|100-pixel partial ellipse
+x11perf-wpellipse10|10-pixel wide partial ellipse
+x11perf-wpellipse100|100-pixel wide partial ellipse
+x11perf-fellipse10|10-pixel filled ellipse
+x11perf-fellipse100|100-pixel filled ellipse
+x11perf-fellipse500|500-pixel filled ellipse
+x11perf-fcpellipse10|10-pixel fill chord partial ellipse
+x11perf-fcpellipse100|100-pixel fill chord partial ellipse
+x11perf-fspellipse10|10-pixel fill slice partial ellipse
+x11perf-fspellipse100|100-pixel fill slice partial ellipse
+x11perf-triangle1|Fill 1x1 equivalent triangle
+x11perf-triangle10|Fill 10x10 equivalent triangle
+x11perf-triangle100|Fill 100x100 equivalent triangle
+x11perf-trap1|Fill 1x1 trapezoid
+x11perf-trap10|Fill 10x10 trapezoid
+x11perf-trap100|Fill 100x100 trapezoid
+x11perf-trap300|Fill 300x300 trapezoid
+x11perf-strap1|Fill 1x1 stippled trapezoid \(8x8 stipple\)
+x11perf-strap10|Fill 10x10 stippled trapezoid \(8x8 stipple\)
+x11perf-strap100|Fill 100x100 stippled trapezoid \(8x8 stipple\)
+x11perf-strap300|Fill 300x300 stippled trapezoid \(8x8 stipple\)
+x11perf-ostrap1|Fill 1x1 opaque stippled trapezoid \(8x8 stipple\)
+x11perf-ostrap10|Fill 10x10 opaque stippled trapezoid \(8x8 stipple\)
+x11perf-ostrap100|Fill 100x100 opaque stippled trapezoid \(8x8 stipple\)
+x11perf-ostrap300|Fill 300x300 opaque stippled trapezoid \(8x8 stipple\)
+x11perf-tiletrap1|Fill 1x1 tiled trapezoid \(4x4 tile\)
+x11perf-tiletrap10|Fill 10x10 tiled trapezoid \(4x4 tile\)
+x11perf-tiletrap100|Fill 100x100 tiled trapezoid \(4x4 tile\)
+x11perf-tiletrap300|Fill 300x300 tiled trapezoid \(4x4 tile\)
+x11perf-oddstrap1|Fill 1x1 stippled trapezoid \(17x15 stipple\)
+x11perf-oddstrap10|Fill 10x10 stippled trapezoid \(17x15 stipple\)
+x11perf-oddstrap100|Fill 100x100 stippled trapezoid \(17x15 stipple\)
+x11perf-oddstrap300|Fill 300x300 stippled trapezoid \(17x15 stipple\)
+x11perf-oddostrap1|Fill 1x1 opaque stippled trapezoid \(17x15 stipple\)
+x11perf-oddostrap10|Fill 10x10 opaque stippled trapezoid \(17x15 stipple\)
+x11perf-oddostrap100|Fill 100x100 opaque stippled trapezoid \(17x15 stipple\)
+x11perf-oddostrap300|Fill 300x300 opaque stippled trapezoid \(17x15 stipple\)
+x11perf-oddtiletrap1|Fill 1x1 tiled trapezoid \(17x15 tile\)
+x11perf-oddtiletrap10|Fill 10x10 tiled trapezoid \(17x15 tile\)
+x11perf-oddtiletrap100|Fill 100x100 tiled trapezoid \(17x15 tile\)
+x11perf-oddtiletrap300|Fill 300x300 tiled trapezoid \(17x15 tile\)
+x11perf-bigstrap1|Fill 1x1 stippled trapezoid \(161x145 stipple\)
+x11perf-bigstrap10|Fill 10x10 stippled trapezoid \(161x145 stipple\)
+x11perf-bigstrap100|Fill 100x100 stippled trapezoid \(161x145 stipple\)
+x11perf-bigstrap300|Fill 300x300 stippled trapezoid \(161x145 stipple\)
+x11perf-bigostrap1|Fill 1x1 opaque stippled trapezoid \(161x145 stipple\)
+x11perf-bigostrap10|Fill 10x10 opaque stippled trapezoid \(161x145 stipple\)
+x11perf-bigostrap100|Fill 100x100 opaque stippled trapezoid \(161x145 stipple\)
+x11perf-bigostrap300|Fill 300x300 opaque stippled trapezoid \(161x145 stipple\)
+x11perf-bigtiletrap1|Fill 1x1 tiled trapezoid \(161x145 tile\)
+x11perf-bigtiletrap10|Fill 10x10 tiled trapezoid \(161x145 tile\)
+x11perf-bigtiletrap100|Fill 100x100 tiled trapezoid \(161x145 tile\)
+x11perf-bigtiletrap300|Fill 300x300 tiled trapezoid \(161x145 tile\)
+x11perf-eschertiletrap1|Fill 1x1 tiled trapezoid \(216x208 tile\)
+x11perf-eschertiletrap10|Fill 10x10 tiled trapezoid \(216x208 tile\)
+x11perf-eschertiletrap100|Fill 100x100 tiled trapezoid \(216x208 tile\)
+x11perf-eschertiletrap300|Fill 300x300 tiled trapezoid \(216x208 tile\)
+x11perf-aatrap1|Fill 1x1 aa trap
+x11perf-aatrap10|Fill 10x10 aa trap
+x11perf-aatrap100|Fill 100x100 aa trap
+x11perf-aatrap300|Fill 300x300 aa trap
+x11perf-aa4trap1|Fill 1x1 aa trap with 4 bit alpha
+x11perf-aa4trap10|Fill 10x10 aa trap with 4 bit alpha
+x11perf-aa4trap100|Fill 100x100 aa trap with 4 bit alpha
+x11perf-aa4trap300|Fill 300x300 aa trap with 4 bit alpha
+x11perf-aa1trap1|Fill 1x1 aa trap with 1 bit alpha
+x11perf-aa1trap10|Fill 10x10 aa trap with 1 bit alpha
+x11perf-aa1trap100|Fill 100x100 aa trap with 1 bit alpha
+x11perf-aa1trap300|Fill 300x300 aa trap with 1 bit alpha
+x11perf-aatrap2x1|Fill 2x1 aa trap
+x11perf-aatrap2x10|Fill 2x10 aa trap
+x11perf-aatrap2x100|Fill 2x100 aa trap
+x11perf-aatrap2x300|Fill 2x300 aa trap
+x11perf-aatrapezoid1|Fill 1x1 aa trapezoid
+x11perf-aatrapezoid10|Fill 10x10 aa trapezoid
+x11perf-aatrapezoid100|Fill 100x100 aa trapezoid
+x11perf-aatrapezoid300|Fill 300x300 aa trapezoid
+x11perf-addaatrapezoid1|Fill 1x1 aa pre-added trapezoid
+x11perf-addaatrapezoid10|Fill 10x10 aa pre-added trapezoid
+x11perf-addaatrapezoid100|Fill 100x100 aa pre-added trapezoid
+x11perf-addaatrapezoid300|Fill 300x300 aa pre-added trapezoid
+x11perf-complex10|Fill 10x10 equivalent complex polygon
+x11perf-complex100|Fill 100x100 equivalent complex polygons
+x11perf-64poly10convex|Fill 10x10 64-gon \(Convex\)
+x11perf-64poly100convex|Fill 100x100 64-gon \(Convex\)
+x11perf-64poly10complex|Fill 10x10 64-gon \(Complex\)
+x11perf-64poly100complex|Fill 100x100 64-gon \(Complex\)
+x11perf-ftext|Char in 80-char line \(6x13\)
+x11perf-f8text|Char in 70-char line \(8x13\)
+x11perf-f9text|Char in 60-char line \(9x15\)
+x11perf-f14text16|Char16 in 40-char line \(k14\)
+x11perf-f24text16|Char16 in 23-char line \(k24\)
+x11perf-polytext16|Char16 in 7/14/7 line \(k14, k24\)
+x11perf-fitext|Char in 80-char image line \(6x13\)
+x11perf-f8itext|Char in 70-char image line \(8x13\)
+x11perf-f9itext|Char in 60-char image line \(9x15\)
+x11perf-f14itext16|Char16 in 40-char image line \(k14\)
+x11perf-f24itext16|Char16 in 23-char image line \(k24\)
+x11perf-aa10text|Char in 80-char aa line \(Charter 10\)
+x11perf-aa24text|Char in 30-char aa line \(Charter 24\)
+x11perf-aaftext|Char in 80-char aa line \(Courier 12\)
+x11perf-a10text|Char in 80-char a line \(Charter 10\)
+x11perf-a24text|Char in 30-char a line \(Charter 24\)
+x11perf-aftext|Char in 80-char a line \(Courier 12\)
+x11perf-rgb10text|Char in 80-char rgb line \(Charter 10\)
+x11perf-rgb24text|Char in 30-char rgb line \(Charter 24\)
+x11perf-rgbftext|Char in 80-char rgb line \(Courier 12\)
+x11perf-scroll10|Scroll 10x10 pixels
+x11perf-scroll100|Scroll 100x100 pixels
+x11perf-scroll500|Scroll 500x500 pixels
+x11perf-copywinwin10|Copy 10x10 from window to window
+x11perf-copywinwin100|Copy 100x100 from window to window
+x11perf-copywinwin500|Copy 500x500 from window to window
+x11perf-copypixwin10|Copy 10x10 from pixmap to window
+x11perf-copypixwin100|Copy 100x100 from pixmap to window
+x11perf-copypixwin500|Copy 500x500 from pixmap to window
+x11perf-copywinpix10|Copy 10x10 from window to pixmap
+x11perf-copywinpix100|Copy 100x100 from window to pixmap
+x11perf-copywinpix500|Copy 500x500 from window to pixmap
+x11perf-copypixpix10|Copy 10x10 from pixmap to pixmap
+x11perf-copypixpix100|Copy 100x100 from pixmap to pixmap
+x11perf-copypixpix500|Copy 500x500 from pixmap to pixmap
+x11perf-copyplane10|Copy 10x10 1-bit deep plane
+x11perf-copyplane100|Copy 100x100 1-bit deep plane
+x11perf-copyplane500|Copy 500x500 1-bit deep plane
+x11perf-deepcopyplane10|Copy 10x10 n-bit deep plane
+x11perf-deepcopyplane100|Copy 100x100 n-bit deep plane
+x11perf-deepcopyplane500|Copy 500x500 n-bit deep plane
+x11perf-putimage10|PutImage 10x10 square
+x11perf-putimage100|PutImage 100x100 square
+x11perf-putimage500|PutImage 500x500 square
+x11perf-putimagexy10|PutImage XY 10x10 square
+x11perf-shmput10|ShmPutImage 10x10 square
+x11perf-shmput100|ShmPutImage 100x100 square
+x11perf-shmput500|ShmPutImage 500x500 square
+x11perf-shmputxy10|ShmPutImage XY 10x10 square
+x11perf-shmputxy100|ShmPutImage XY 100x100 square
+x11perf-shmget10|ShmGetImage 10x10 square
+x11perf-shmget100|ShmGetImage 100x100 square
+x11perf-shmget500|ShmGetImage 500x500 square
+x11perf-shmgetxy10|ShmGetImage XY 10x10 square
+x11perf-getimage10|GetImage 10x10 square
+x11perf-getimage100|GetImage 100x100 square
+x11perf-getimage500|GetImage 500x500 square
+x11perf-getimagexy10|GetImage XY 10x10 square
+x11perf-compwinwin10|Composite 10x10 from window to window
+x11perf-compwinwin100|Composite 100x100 from window to window
+x11perf-compwinwin500|Composite 500x500 from window to window
+x11perf-comppixwin10|Composite 10x10 from pixmap to window
+x11perf-comppixwin100|Composite 100x100 from pixmap to window
+x11perf-comppixwin500|Composite 500x500 from pixmap to window
+x11perf-noop|X protocol NoOperation
+x11perf-pointer|QueryPointer
+x11perf-prop|GetProperty
+x11perf-gc|Change graphics context
+x11perf-creat(4 kids)|Create and map subwindows \(4 kids\)
+x11perf-creat(16 kids)|Create and map subwindows \(16 kids\)
+x11perf-creat(25 kids)|Create and map subwindows \(25 kids\)
+x11perf-creat(50 kids)|Create and map subwindows \(50 kids\)
+x11perf-creat(75 kids)|Create and map subwindows \(75 kids\)
+x11perf-creat(100 kids)|Create and map subwindows \(100 kids\)
+x11perf-creat(200 kids)|Create and map subwindows \(200 kids\)
+x11perf-ucreat(4 kids)|Create unmapped window \(4 kids\)
+x11perf-ucreat(16 kids)|Create unmapped window \(16 kids\)
+x11perf-ucreat(25 kids)|Create unmapped window \(25 kids\)
+x11perf-ucreat(50 kids)|Create unmapped window \(50 kids\)
+x11perf-ucreat(75 kids)|Create unmapped window \(75 kids\)
+x11perf-ucreat(100 kids)|Create unmapped window \(100 kids\)
+x11perf-ucreat(200 kids)|Create unmapped window \(200 kids\)
+x11perf-map(4 kids)|Map window via parent \(4 kids\)
+x11perf-map(16 kids)|Map window via parent \(16 kids\)
+x11perf-map(25 kids)|Map window via parent \(25 kids\)
+x11perf-map(50 kids)|Map window via parent \(50 kids\)
+x11perf-map(75 kids)|Map window via parent \(75 kids\)
+x11perf-map(100 kids)|Map window via parent \(100 kids\)
+x11perf-map(200 kids)|Map window via parent \(200 kids\)
+x11perf-unmap(4 kids)|Unmap window via parent \(4 kids\)
+x11perf-unmap(16 kids)|Unmap window via parent \(16 kids\)
+x11perf-unmap(25 kids)|Unmap window via parent \(25 kids\)
+x11perf-unmap(50 kids)|Unmap window via parent \(50 kids\)
+x11perf-unmap(75 kids)|Unmap window via parent \(75 kids\)
+x11perf-unmap(100 kids)|Unmap window via parent \(100 kids\)
+x11perf-unmap(200 kids)|Unmap window via parent \(200 kids\)
+x11perf-destroy(4 kids)|Destroy window via parent \(4 kids\)
+x11perf-destroy(16 kids)|Destroy window via parent \(16 kids\)
+x11perf-destroy(25 kids)|Destroy window via parent \(25 kids\)
+x11perf-destroy(50 kids)|Destroy window via parent \(50 kids\)
+x11perf-destroy(75 kids)|Destroy window via parent \(75 kids\)
+x11perf-destroy(100 kids)|Destroy window via parent \(100 kids\)
+x11perf-destroy(200 kids)|Destroy window via parent \(200 kids\)
+x11perf-popup(4 kids)|Hide/expose window via popup \(4 kids\)
+x11perf-popup(16 kids)|Hide/expose window via popup \(16 kids\)
+x11perf-popup(25 kids)|Hide/expose window via popup \(25 kids\)
+x11perf-popup(50 kids)|Hide/expose window via popup \(50 kids\)
+x11perf-popup(75 kids)|Hide/expose window via popup \(75 kids\)
+x11perf-popup(100 kids)|Hide/expose window via popup \(100 kids\)
+x11perf-popup(200 kids)|Hide/expose window via popup \(200 kids\)
+x11perf-move(4 kids)|Move window \(4 kids\)
+x11perf-move(16 kids)|Move window \(16 kids\)
+x11perf-move(25 kids)|Move window \(25 kids\)
+x11perf-move(50 kids)|Move window \(50 kids\)
+x11perf-move(75 kids)|Move window \(75 kids\)
+x11perf-move(100 kids)|Move window \(100 kids\)
+x11perf-move(200 kids)|Move window \(200 kids\)
+x11perf-umove(4 kids)|Moved unmapped window \(4 kids\)
+x11perf-umove(16 kids)|Moved unmapped window \(16 kids\)
+x11perf-umove(25 kids)|Moved unmapped window \(25 kids\)
+x11perf-umove(50 kids)|Moved unmapped window \(50 kids\)
+x11perf-umove(75 kids)|Moved unmapped window \(75 kids\)
+x11perf-umove(100 kids)|Moved unmapped window \(100 kids\)
+x11perf-umove(200 kids)|Moved unmapped window \(200 kids\)
+x11perf-movetree(4 kids)|Move window via parent \(4 kids\)
+x11perf-movetree(16 kids)|Move window via parent \(16 kids\)
+x11perf-movetree(25 kids)|Move window via parent \(25 kids\)
+x11perf-movetree(50 kids)|Move window via parent \(50 kids\)
+x11perf-movetree(75 kids)|Move window via parent \(75 kids\)
+x11perf-movetree(100 kids)|Move window via parent \(100 kids\)
+x11perf-movetree(200 kids)|Move window via parent \(200 kids\)
+x11perf-resize(4 kids)|Resize window \(4 kids\)
+x11perf-resize(16 kids)|Resize window \(16 kids\)
+x11perf-resize(25 kids)|Resize window \(25 kids\)
+x11perf-resize(50 kids)|Resize window \(50 kids\)
+x11perf-resize(75 kids)|Resize window \(75 kids\)
+x11perf-resize(100 kids)|Resize window \(100 kids\)
+x11perf-resize(200 kids)|Resize window \(200 kids\)
+x11perf-uresize(4 kids)|Resize unmapped window \(4 kids\)
+x11perf-uresize(16 kids)|Resize unmapped window \(16 kids\)
+x11perf-uresize(25 kids)|Resize unmapped window \(25 kids\)
+x11perf-uresize(50 kids)|Resize unmapped window \(50 kids\)
+x11perf-uresize(75 kids)|Resize unmapped window \(75 kids\)
+x11perf-uresize(100 kids)|Resize unmapped window \(100 kids\)
+x11perf-uresize(200 kids)|Resize unmapped window \(200 kids\)
+x11perf-circulate(4 kids)|Circulate window \(4 kids\)
+x11perf-circulate(16 kids)|Circulate window \(16 kids\)
+x11perf-circulate(25 kids)|Circulate window \(25 kids\)
+x11perf-circulate(50 kids)|Circulate window \(50 kids\)
+x11perf-circulate(75 kids)|Circulate window \(75 kids\)
+x11perf-circulate(100 kids)|Circulate window \(100 kids\)
+x11perf-circulate(200 kids)|Circulate window \(200 kids\)
+x11perf-ucirculate(4 kids)|Circulate Unmapped window \(4 kids\)
+x11perf-ucirculate(16 kids)|Circulate Unmapped window \(16 kids\)
+x11perf-ucirculate(25 kids)|Circulate Unmapped window \(25 kids\)
+x11perf-ucirculate(50 kids)|Circulate Unmapped window \(50 kids\)
+x11perf-ucirculate(75 kids)|Circulate Unmapped window \(75 kids\)
+x11perf-ucirculate(100 kids)|Circulate Unmapped window \(100 kids\)
+x11perf-ucirculate(200 kids)|Circulate Unmapped window \(200 kids\)
+#x11perf-seg100c2|100-pixel line segment \(2 kid\)
+#x11perf-seg100c3|100-pixel line segment \(3 kid\)
+#x11perf-putimagexy100|PutImage XY 100x100 square
+#x11perf-putimagexy500|PutImage XY 500x500 square
+#x11perf-shmputxy500|ShmPutImage XY 500x500 square
+#x11perf-shmgetxy100|ShmGetImage XY 100x100 square
+#x11perf-shmgetxy500|ShmGetImage XY 500x500 square
+#x11perf-getimagexy100|GetImage XY 100x100 square
+#x11perf-getimagexy500|GetImage XY 500x500 square
+
+###########################################
+#   Conti BenchMark
+###########################################
+Time/frame (Median)|Time\/frame \(Median\)
+Framerate (Median)|Framerate \(Median\)
+Renderrate (Median)|Renderrate \(Median\)
+Renderrate with swap (Median)|Renderrate with swap \(Median\)
+Texturerate (Median)|Texturerate \(Median\)
