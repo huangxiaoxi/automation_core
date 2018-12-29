@@ -56,7 +56,10 @@ casenamemap={'MM06':'mm06 test',
              'GEMM':'GEMM test',
              'HEVC_CL':'hevc_cl_test test',
              'OCL':'SPECIAL',
+             'SOFTISP':'SoftISP test',
              'WEBGL':'WebGL performance test',
+             'MOTIONMARK':'MotionMark Test',
+             'WEBGL3.0':'WebGL3.0 Test',
              'G2D':'G2d performance test',
              'XACC':'acceleration test',
              'KPA':'KPA performance test',
@@ -565,21 +568,21 @@ def mapcheckitem():
 
 ############################################################
 #   description: analysis the file name to get              #
-#                broadname backend and kernelver           #
+#                boardname backend and kernelver           #
 #   parm: filename - log file name                         #
-#   ret : return broadname backend and kernelver           #
+#   ret : return boardname backend and kernelver           #
 ############################################################
 def analysisfilename(filename):
     tmplist = filename.split('_L_')
     broad = tmplist[0].split('_')
     if len(broad)==3:
         if broad[1]=='EVK':
-            broadname=tmplist[0]
-        broadname=broad[0]+'_'+broad[2]
-        print 'The broad and backend is '+broadname
+            boardname=tmplist[0]
+        boardname=broad[0]+'_'+broad[2]
+        print 'The broad and backend is '+boardname
     backend = broad[-1]
     kernelver = 'L' + tmplist[1].strip('(.txt|.TXT)')
-    return broadname, backend, kernelver
+    return boardname, backend, kernelver
 
 ############################################################
 #   description: split the logfile into several part       #
@@ -706,17 +709,17 @@ def grabperformance(logfile, path, excelfile):
         print "Please make sure it exists."
         sys.exit(1)
     lines = logfilep.read()
+    logfilep.close()
     print '%-45s %9s'%('Reading logfile','[OK]')
 
-    logfilep.close()
-    broadname,backend,kernelver=analysisfilename(logfile)
+    boardname,backend,kernelver=analysisfilename(logfile)
     print '%-45s %9s'%('Analysis file name','[OK]')
 
     oldexcelfile = xlrd.open_workbook(excelfile, formatting_info=True)
     newexcelfile = copy(oldexcelfile)
-    oldsheet = oldexcelfile.sheet_by_name(unicode( broadname ))
+    oldsheet = oldexcelfile.sheet_by_name(unicode( boardname ))
     sheetName = oldexcelfile.sheet_names()
-    newsheet = newexcelfile.get_sheet(sheetName.index(unicode( broadname )))
+    newsheet = newexcelfile.get_sheet(sheetName.index(unicode( boardname )))
     ncols = getvalidcol(oldsheet)
     nrows = getvalidrow(oldsheet)
     print '%-45s %9s'%('Openning excel','[OK]')
@@ -897,14 +900,14 @@ if __name__=='__main__':
         print "failed to get arguments"
         usage()
     logpath=os.path.dirname(logfile)
-    filename=os.path.basename(logfile)
+    logname=os.path.basename(logfile)
     if logpath[-1] != '/':
         logpath=logpath+'/'
     #lock on a file so that only one process can work at a time
     try:
         locker=Lock('block.txt')
         locker.acquire()
-        gloMissing,FailItemNum = grabperformance(filename, logpath, excelfile)
+        gloMissing,FailItemNum = grabperformance(logname, logpath, excelfile)
     finally:
         locker.release()
     print "Performance auto grab done."

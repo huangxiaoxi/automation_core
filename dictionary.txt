@@ -308,6 +308,16 @@ float calu Time(ms)|GEMM test_L_\nfloat calu Time\:
 CPU time taken(us)|\nCPU time taken =
 GPU time needed(OpenCL event profiling)(us)|\nGPU time needed\(OpenCL event profiling\)\:
 total running time(s)|ocl_test test_L_\ntotal running time is
+kernel: badpixel(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: badpixel\)\:
+kernel: sigma(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: sigma\)\:
+kernel: awb(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: awb\)\:
+kernel: equalize1(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: equalize1\)\:
+kernel: equalize2(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: equalize2\)\:
+kernel: equalize3(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: equalize3\)\:
+kernel: debayer(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: debayer\)\:
+kernel: rgba2yuyv(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: rgba2yuyv\)\:
+kernel: bilateral(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: bilateral\)\:
+kernel: yuyv2rgba(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: yuyv2rgba\)\:
 
 ################################
 #   WebGL performance test

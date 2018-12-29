@@ -92,7 +92,7 @@ def splitlogfile(wholelogfile,caselistfile):
                     writetofile(wholelogfile,case_name,tempfile)
                     j=j+1
     print('============')
-    os.system("ls log/")
+    os.system("ls ../automation_log/log/")
     print('============')
     try:
         fd=open(tempfile,'r')
