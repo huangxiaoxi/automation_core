@@ -42,9 +42,9 @@ def writetofile(wholelog,casename,tfile):
             caselogcontent=logcontent.split(split_flag_back)[0]
             break
     fd=open(tfile,'a')
-    print('================')
-    print(tfile)
-    print('================')
+    #print('================')
+    #print(tfile)
+    #print('================')
     fd.write(caselogcontent)
     fd.close()
 
@@ -77,9 +77,9 @@ def splitlogfile(wholelogfile,caselistfile):
         fd.close()
     j=0
     tempfile=wholelogfile+'.temp'
-    print('===============')
-    print(full_case_list)
-    print('===============')
+    #print('===============')
+    #print(full_case_list)
+    #print('===============')
     for case_name in full_case_list: 
         for line in logcontent:
             case_id='Hook: case Name:  '+case_name+' Start'
@@ -91,9 +91,9 @@ def splitlogfile(wholelogfile,caselistfile):
                     case_name_old=case_name
                     writetofile(wholelogfile,case_name,tempfile)
                     j=j+1
-    print('============')
-    os.system("ls ../automation_log/log/")
-    print('============')
+    #print('============')
+    #os.system("ls ../automation_log/log/")
+    #print('============')
     try:
         fd=open(tempfile,'r')
     except IOError:
