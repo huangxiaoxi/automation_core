@@ -57,6 +57,7 @@ casenamemap={'MM06':'mm06 test',
              'HEVC_CL':'hevc_cl_test test',
              'OCL':'SPECIAL',
              'SOFTISP':'SoftISP test',
+             'VLOAD/VSTORE':'OpenCL vload/vstore test',
              'WEBGL':'WebGL performance test',
              'MOTIONMARK':'MotionMark Test',
              'WEBGL3.0':'WebGL3.0 Test',
@@ -119,7 +120,8 @@ def getcheckitemdata(logfragment,casename,checkitem):
         stepList = checkitem.split('_L_')
         ch0 = stepList[0].strip()
         ch1 = stepList[1].strip()
-        var = ch0+'.*?'+ch1+' *\d+\.*\d'
+        #var = ch0+'.*?'+ch1+' *\d+\.*\d'
+        var = ch0+'.*?'+ch1+'\s+\d+\.\d+'
         if 'colorseg_demo' in checkitem:
             return colorseg_demo(logfragment,checkitem,casename)
         elif 'CLPEAK' in casename:

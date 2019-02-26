@@ -273,7 +273,7 @@ Fast Cluster|Fast Cluster
 Total Score|Overall score
 
 ################################
-#   OpenCL benchmark: clpeak GEMM hevc_cl ocl
+#   OpenCL benchmark: clpeak GEMM hevc_cl ocl SoftISP vload/vstore
 ################################
 Global memory bandwidth float(GBPS)|Global memory bandwidth_L_float   :_L_Single-precision compute
 Global memory bandwidth float2(GBPS)|Global memory bandwidth_L_float2_L_Single-precision compute
@@ -318,6 +318,8 @@ kernel: debayer(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: deba
 kernel: rgba2yuyv(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: rgba2yuyv\)\:
 kernel: bilateral(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: bilateral\)\:
 kernel: yuyv2rgba(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: yuyv2rgba\)\:
+Run time with scalar(ms)|GPU processing\(scalar\)_L_\nRun time\:
+Run time with vector(ms)|GPU processing\(vector\)_L_\nRun time\:
 
 ################################
 #   WebGL performance test
