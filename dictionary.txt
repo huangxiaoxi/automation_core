@@ -305,8 +305,8 @@ Kernel launch latency(us)|Kernel launch latency
 Initialize OpenCL Time(ms)|GEMM test_L_\nTime\:
 Throughput(GFLOPS)|GEMM test_L_\nThroughput\:
 float calu Time(ms)|GEMM test_L_\nfloat calu Time\:
-CPU time taken(us)|\nCPU time taken =
-GPU time needed(OpenCL event profiling)(us)|\nGPU time needed\(OpenCL event profiling\)\:
+CPU time taken(us)|\nCPU average time taken =
+GPU time needed(OpenCL event profiling)(us)|\nGPU average time needed\(OpenCL event profiling\)\:
 total running time(s)|ocl_test test_L_\ntotal running time is
 kernel: badpixel(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: badpixel\)\:
 kernel: sigma(ms)|SoftISP test_L_\nKernel execution time on GPU \(kernel: sigma\)\:
