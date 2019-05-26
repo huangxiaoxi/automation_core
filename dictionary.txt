@@ -745,3 +745,8 @@ Framerate (Median)|Framerate \(Median\)
 Renderrate (Median)|Renderrate \(Median\)
 Renderrate with swap (Median)|Renderrate with swap \(Median\)
 Texturerate (Median)|Texturerate \(Median\)
+
+###########################################
+#   OpenCV AlexNet DNN
+###########################################
+total time(ms)|ms total

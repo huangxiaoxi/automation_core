@@ -64,6 +64,7 @@ casenamemap={'MM06':'mm06 test',
              'G2D':'G2d performance test',
              'XACC':'acceleration test',
              'KPA':'KPA performance test',
+             'OPENCV_ALEXNET_DNN':'OpenCV AlexNet DNN test',
              'GRAPHIC_CBM_ID_4A_FLUSH':'Graphic_CBM_ID_4A_flush test',
              'GRAPHIC_CBM_ID_4B_FLUSH&SWAP':'Graphic_CBM_ID_4B_flushswap test',
              'GRAPHIC_CBM_ID_4C_FINISH&SWAP':'Graphic_CBM_ID_4C_finishswap test',
@@ -135,7 +136,7 @@ def getcheckitemdata(logfragment,casename,checkitem):
                 'BASEMARK_V2':basemark_v2,'VGMARK_GC2000':vgmark_gc2000,'VGMARK_GC355':vgmark_gc355,
                 'GTK-PERF':gtkperf,'GTKPERF':gtkperf,'DF_DOK':df_dok,'GPUBENCH':gpubench,'MM07_NOAA':MM07_NOAA,
                 'MM07_FSAA':MM07_FSAA,'MM06_NOAA':MM06_NOAA,'MM06_FSAA':MM06_FSAA,'XACC':XACC,'HEVC_CL':hevc_cl,
-                'CLPEAK':clpeak,'KPA':kpa,'VGMARK11_GC2000':vgmark11_gc2000}
+                'CLPEAK':clpeak,'KPA':kpa,'VGMARK11_GC2000':vgmark11_gc2000,'OPENCV_ALEXNET_DNN':OpenCV_AlexNet_DNN}
         return fundict[casename](logfragment,checkitem)
 
 def getcheckitemdataspecial(logfragment,checkitemname,checkitem):
@@ -148,6 +149,19 @@ def getcheckitemdataspecial(logfragment,checkitemname,checkitem):
                 'GLMARK2FULLSCREEN(SCORE)':glmark_score,
                 'TOTALRUNNINGTIME(S)':ocl}
     return funcdict[checkitemname](logfragment, checkitem, checkitemname)
+
+def OpenCV_AlexNet_DNN(logfragment,checkitem,checkitemname='OpenCV_AlexNext_DNN'):
+    #stepList = checkitem.split('_L_')
+    #ch0=stepList[0].strip()
+    var='\d+\s+'+checkitem
+    pattern = re.compile(var, re.S)
+    match=pattern.findall(logfragment[-1])
+    if len(match)==0:
+        print 'missed in '+checkitem+' \tin\t '+casename
+    else:
+        #print checkitem+match[-1].split()[-1]
+        data = match[-1].split(' ')[0]
+    return data
 
 def glmark_score(logfragment, checkitem, checkitemname='glmark_score'):
     stepList = checkitem.split('_L_')
